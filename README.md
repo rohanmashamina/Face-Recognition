@@ -114,10 +114,3 @@ python app.py
 * tkinter
 
 Refer to [`requirements.txt`](./requirements.txt) for full package list.
-
-## 📌 Notes
-
-* If `emotion_model.pth` is missing, the model will train automatically on startup.
-* Face detection uses **OpenCV Haar cascades**.
-* Face recognition uses **LBPH recognizer** from OpenCV.
-* The GUI is implemented in `app.py` (`FaceRecognitionApp` class).
